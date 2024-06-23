@@ -49,7 +49,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                     onClick={() => navigation("left")}
                 />
                 <BsFillArrowRightCircleFill
-                    className="carouselRightNav arrow"
+                    className="carouselRighttNav arrow"
                     onClick={() => navigation("right")}
                 />
 
@@ -77,7 +77,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                                             {item.title || item.name}
                                         </span>
                                         <span className="date">
-                                            {dayjs(item.release_Date).format("MMM D, YYYY")}
+                                            {dayjs(item.release_date).format("MMM D, YYYY")}
                                         </span>
                                     </div>
                                 </div>
